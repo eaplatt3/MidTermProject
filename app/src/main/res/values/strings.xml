@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Mid Term Project</string>
+    <string name="title">Enter Student Grades</string>
+    <string name="tot_stu">Total Number of Students</string>
+    <string name="a">Student A\'s</string>
+    <string name="b">Student B\'s</string>
+    <string name="c">Student C\'s</string>
+    <string name="d">Student D\'s</string>
+    <string name="f">Student F\'s</string>
+    <string name="btn_cal">Calculate</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title2">The Percentage of Grades</string>
+    <string name="btn_chart">Bar Chart</string>
+</resources>

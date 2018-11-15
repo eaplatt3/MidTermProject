@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".GradeEntry">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/title"
+        android:textSize="40sp"
+        android:textColor="#000000"
+        android:gravity="center"
+        android:paddingBottom="20dp"/>
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/tot_stu"
+        android:textSize="20sp"
+        android:textColor="#000000" />
+
+        <EditText
+            android:id="@+id/tot_student"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/a"
+        android:textSize="20sp"
+        android:paddingTop="20dp"
+        android:textColor="#000000" />
+
+        <EditText
+            android:id="@+id/tot_a"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/b"
+        android:textSize="20sp"
+        android:paddingTop="20dp"
+        android:textColor="#000000" />
+
+        <EditText
+            android:id="@+id/tot_b"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/c"
+            android:textSize="20sp"
+            android:paddingTop="20dp"
+            android:textColor="#000000" />
+
+        <EditText
+            android:id="@+id/tot_c"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/d"
+            android:textSize="20sp"
+            android:paddingTop="20dp"
+            android:textColor="#000000" />
+
+        <EditText
+            android:id="@+id/tot_d"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/f"
+            android:textSize="20sp"
+            android:paddingTop="20dp"
+            android:textColor="#000000" />
+
+        <EditText
+            android:id="@+id/tot_f"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/btn_cal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/btn_cal"
+            android:onClick="readNum"/>
+
+    </LinearLayout>
+
+</ScrollView>
